@@ -6,6 +6,8 @@ pre-compiled .jar if you don't feel like doing it yourself.
 
 #### Do you want to report a bug or propose a new feature? Do so on our [BugTracker](https://sycha-design.myjetbrains.com/youtrack/issues/SN)!
 
+(Please excuse and ignore the shitload of weird commits, we've had some problems with YouTrack)
+
 ## Compiling
 You can easily compile this using gradle.
  - Create a new directory a clone this repo using ```git clone git@github.com:JacobCZ/spring-notes.git```

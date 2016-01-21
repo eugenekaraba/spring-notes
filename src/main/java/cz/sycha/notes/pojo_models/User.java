@@ -3,10 +3,6 @@ package cz.sycha.notes.pojo_models;
 import cz.sycha.notes.database.UsersDB;
 import org.springframework.data.annotation.Id;
 import org.springframework.security.crypto.bcrypt.BCrypt;
-
-import java.sql.Timestamp;
-import java.util.Date;
-import java.util.Random;
 import java.util.UUID;
 
 public class User {
@@ -23,8 +19,6 @@ public class User {
         UsersDB db = new UsersDB();
 
         // Generate password hash
-        //String salt = BCrypt.gensalt(4);
-        //this.password = BCrypt.hashpw(password, salt);
         this.password = password;
 
         // Set username and password
